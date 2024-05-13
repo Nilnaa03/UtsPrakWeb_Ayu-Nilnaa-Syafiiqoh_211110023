@@ -1,0 +1,61 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    background-image: url('assets/background1.png');
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #BA55D3 !important;
+}
+
+.navbar-brand img {
+    margin-left: 50px;
+    width: 40px;
+    height: auto;
+}
+
+.nav-link {
+    color: #D9D9D9 !important;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #fff !important;
+}
+.container {
+    margin-top: 100px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+/* Styling for contact details */
+.col-md-5 {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.col-md-5 h4 {
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    margin-bottom: 10px;
+}
+
+.d-flex p {
+    margin-left: 10px;
+}

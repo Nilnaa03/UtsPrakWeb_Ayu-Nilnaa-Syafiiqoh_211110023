@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayu Resto</title>
+    <link rel="icon" href="assets/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="bodyMenu">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/logo.png" alt="Logo" class="d-inline-block align-text-top" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bestmenu.html">Best Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="content-menu">
+        <h1><b>Menu Ayu Resto</b></h1>
+        <div class="atur-card">
+          <div class="card">
+            <img src="assets/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Menu Pembuka</h3>
+                <p class="card-text">Soto Ayam, Karedok, Tahu Goreng, Tempe Goreng, Bakwan Jagung</p>
+            </div>
+            <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Explore More
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+              </svg>
+            </a>
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Menu Pembuka</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Soto Ayam
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <span class="namaMakanan">Soto Ayam dengan cita rasa khas AR</span> 
+                              <span class="harga">Rp 20.000</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                             Karedok
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <span class="namaMakanan">Karedok dengan bumbu khas AR dengan perpaduan kencur</span> 
+                              <span class="harga">Rp 20.000</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Tahu Goreng
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <span class="namaMakanan">Tahu Goreng dengan cita rasa khas AR</span> 
+                              <span class="harga">Rp 10.000</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                              Tempe Goreng
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <span class="namaMakanan">Tempe Goreng dengan cita rasa khas AR</span> 
+                              <span class="harga">Rp 10.000</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                              Bakwan Jagung
+                            </button>
+                          </h2>
+                          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <span class="namaMakanan">Bakwand Jagung kress dengan cita rasa khas AR</span> 
+                              <span class="harga">Rp 15.000</span>
+                            </div>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="menu.html" class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <img src="assets/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Menu Utama</h3>
+                    <p class="card-text">Nasi Liwet, Pepesan, Sate Kambing</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle1" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel1" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel1">Menu Utama</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample1">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                                      Nasi Liwet
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Nasi Liwet dengan rempah-rempah pilihan dan cita rasa yang khas AR</span> 
+                                      <span class="harga">Rp 35.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1" aria-expanded="false" aria-controls="flush-collapseTwo1">
+                                      Pepesan
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Pepes Ikan, Jamur, Tahu, Ayam yang dibalut dengan daun pisang</span> 
+                                      <span class="harga">Rp 25.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1" aria-expanded="false" aria-controls="flush-collapseThree1">
+                                      Sate Kambing
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Sate Kambing dengan perpaduan bumbu kacang yang kental dan khas AR</span> 
+                                      <span class="harga">Rp 30.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card">
+                <img src="assets/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Hidangan Penutup</h3>
+                    <p class="card-text">Es Teler, Kolak Pisang, Bubur Sumsum</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Hidangan Penutup</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample2">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
+                                        Es Teler
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Es Teler dengan perpaduan buah segar dan sirup kelapa</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo2">
+                                      Kolak Pisang
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Kolak Pisang dengan perpaduan Ubi dan Kolang-Kaling</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree2" aria-expanded="false" aria-controls="flush-collapseThree2">
+                                      Bubur Sumsum
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample2">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Bubur Sumsum dengan perpaduan Gula Merah dan Santan</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card">
+                <img src="assets/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Tradisional</h3>
+                    <p class="card-text">Wedang Jahe Panas, Wedang Ronde</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle3" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel3">Tradisional</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample3">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne3">
+                                      Wedang Jahe Panas
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample3">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Wedang Jahe Panas dengan berbagai rempah-rempah alami pilihan</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo3" aria-expanded="false" aria-controls="flush-collapseTwo3">
+                                      Wedang Ronde
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample3">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Wedang Ronde dengan macam-macam toping dan rempah-rempah alami</span> 
+                                      <span class="harga">Rp 20.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card">
+                <img src="assets/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Jus Buah</h3>
+                    <p class="card-text">Jus Alpukat, Jus Semangka, Jus Melon, Jus Mangga</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel4">Jus Buah</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample4">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne4" aria-expanded="false" aria-controls="flush-collapseOne4">
+                                      Jus Alpukat
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Jus Alpukat ask our kasir</span> 
+                                      <span class="harga">Rp 20.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo4" aria-expanded="false" aria-controls="flush-collapseTwo4">
+                                      Jus Semangka
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Jus Semangka ask our kasir</span> 
+                                      <span class="harga">Rp 18.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree4" aria-expanded="false" aria-controls="flush-collapseThree4">
+                                      Jus Melon
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Jus Melon ask our kasir</span> 
+                                      <span class="harga">Rp 20.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour4" aria-expanded="false" aria-controls="flush-collapseFour4">
+                                      Jus Mangga
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFour4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample4">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Jus Mangga ask our kasir</span> 
+                                      <span class="harga">Rp 19.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card">
+                <img src="assets/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Menu Lauk</h3>
+                    <p class="card-text">Ayam, Bebek, Ikan, Gorengan</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel5" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel5">Menu Lauk</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample5">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo5" aria-expanded="false" aria-controls="flush-collapseTwo5">
+                                      Ayam
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Pilih masakan, Ayam Goreng/Ayam Bakar/Ayam Ungkep Bumbu Kuning</span> 
+                                      <span class="harga">Rp 25.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree5" aria-expanded="false" aria-controls="flush-collapseThree5">
+                                      Bebek
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Pilih masakan, Bebek Goreng/Bebek Bakar/Bebek Ungkep Bumbu Kuning</span> 
+                                      <span class="harga">Rp 35.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour5" aria-expanded="false" aria-controls="flush-collapseFour5">
+                                      Ikan
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFour5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Ask our kasir. Pilihan menu: Ikan Air Laut/Ikan Air Tawar</span> 
+                                      <span class="harga">Rp 25.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive5" aria-expanded="false" aria-controls="flush-collapseFive5">
+                                      Gorengan
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFive5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample5">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">ask our kasir. Pilihan menu: Bakwan/Tahu/Tempe/Terong/Kol(Kubis)/Petai/Jengkol</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card">
+                <img src="assets/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Sayuran</h3>
+                    <p class="card-text">Sayur Asem, Sayur Lodeh, Sayur Sop, Opor Ayam</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle6" aria-hidden="true" aria-labelledby="exampleModalToggleLabel6" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel6">Sayuran</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample6">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne6" aria-expanded="false" aria-controls="flush-collapseOne6">
+                                      Sayur Asem
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Sayur Asem ask our kasir</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo6" aria-expanded="false" aria-controls="flush-collapseTwo6">
+                                      Sayur Lodeh
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Sayur Lodeh ask our kasir</span> 
+                                      <span class="harga">Rp 15.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree6" aria-expanded="false" aria-controls="flush-collapseThree6">
+                                      Sayur Sop
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Sayur Sop ask our kasir</span> 
+                                      <span class="harga">Rp 17.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour6" aria-expanded="false" aria-controls="flush-collapseFour6">
+                                      Opor Ayam
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseFour6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample6">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Opor Ayam ask our kasir</span> 
+                                      <span class="harga">Rp 25.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card">
+                <img src="assets/8.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">Menu Paketan</h3>
+                    <p class="card-text">Paket 1, Paket 2</p>
+                </div>
+                <a href="#" class="btn btn-secondary" data-bs-target="#exampleModalToggle7" data-bs-toggle="modal">Explore More
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+                    <path d="M4.7 10c-.2 0-.4-.1-.5-.2-.3-.3-.3-.8 0-1.1L6.9 6 4.2 3.3c-.3-.3-.3-.8 0-1.1.3-.3.8-.3 1.1 0l3.3 3.2c.3.3.3.8 0 1.1L5.3 9.7c-.2.2-.4.3-.6.3Z" fill="white"></path>
+                  </svg>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalToggle7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel7" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalToggleLabel7">Menu Paketan</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample7">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne7" aria-expanded="false" aria-controls="flush-collapseOne7">
+                                      Paket 1
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample7">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Paket 1 ask our kasir</span> 
+                                      <span class="harga">Rp 70.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo7" aria-expanded="false" aria-controls="flush-collapseTwo7">
+                                      Paket 2
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample7">
+                                    <div class="accordion-body">
+                                      <span class="namaMakanan">Paket 2 ask our kasir</span> 
+                                      <span class="harga">Rp 70.000</span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="menu.html" class="btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M7.78 12.53a.75.75 0 0 1-1.06 0L2.47 8.28a.75.75 0 0 1 0-1.06l4.25-4.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L4.81 7h7.44a.75.75 0 0 1 0 1.5H4.81l2.97 2.97a.75.75 0 0 1 0 1.06Z"></path></svg>Back
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>

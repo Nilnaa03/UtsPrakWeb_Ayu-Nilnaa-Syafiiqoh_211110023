@@ -1,0 +1,101 @@
+// Variables
+$primary-color: #643812;
+$secondary-color: #D9D9D9;
+$font-family: 'Montserrat', sans-serif;
+
+// Mixins
+@mixin transition($property, $duration) {
+  transition: $property $duration ease;
+}
+
+// Styles
+body {
+  font-family: $font-family;
+  color: #333;
+  background-color: $secondary-color;
+}
+
+.navbar {
+  background-color: $primary-color !important;
+}
+
+.nav-link {
+  color: $secondary-color !important;
+  @include transition(color, 0.3s);
+
+  &:hover {
+    color: #fff !important;
+  }
+}
+
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: $secondary-color;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  p {
+    font-size: 18px;
+    color: $secondary-color;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+  }
+
+  .btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    @include transition(background-color, 0.3s);
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+      border-color: darken($primary-color, 10%);
+    }
+  }
+}
+
+.about {
+  padding: 80px 0;
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 30px;
+  }
+}
+
+.contact {
+  padding: 80px 0;
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 40px;
+  }
+
+  h4 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+footer {
+  background-color: $primary-color !important;
+
+  a {
+    color: $secondary-color !important;
+    @include transition(color, 0.3s);
+
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}}
